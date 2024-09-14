@@ -12,17 +12,14 @@ Navigate to Hacker News "newest" page: The script opens the "newest" section of 
 Extract the first 100 articles: The script selects and captures the post IDs of the first 100 articles displayed on the page.
 Validate sorting: The post IDs are checked to ensure they are in descending order (from newest to oldest).
 Report the result: The script logs a message confirming whether the articles are sorted correctly.
-Running the Script
-Install dependencies:
 
-bash
-Copy code
+
+Install dependencies:
 npm install
 Run the script:
-
-bash
-Copy code
 node index.js
+
+
 Tools Used
 Playwright: For browser automation and extracting the article information.
 Node.js: The runtime environment for executing the script.
